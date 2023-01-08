@@ -15,7 +15,7 @@ public class queues {
 		
 		main proses=queueFCFS.queue.remove();
 		
-		
+	
 		metin=String.valueOf(time+sayici)+" Saniye proses basladi:         "+"PID: " +String.valueOf(proses.id) +"   Oncelik: "+ String.valueOf(proses.oncelik)+ "   Kalan Zaman: "+String.valueOf(proses.proseszamani);
 		System.out.println(metin);
 		

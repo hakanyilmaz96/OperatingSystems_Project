@@ -24,7 +24,7 @@ public class dispatcher {
 		int processSayisi = 0;
 		
 		
-		while (processSayisi != boyut ) {
+		while (processSayisi<boyut*2 ) {
 			
 			for(int i =0; i < boyut ;i++) {
 				if(dispatcher.size()==0)
@@ -37,9 +37,7 @@ public class dispatcher {
 					
 				}		
 			}		
-			
-			if (!(queues.queueFCFS.queue.isEmpty())) { 
-				
+			if (!(queues.queueFCFS.queue.isEmpty())) { 				
 				int rt_timer = queues.FCFS_calistir(sayici);
 				sayici += rt_timer;			
 			}

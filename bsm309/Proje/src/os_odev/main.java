@@ -63,6 +63,7 @@ public class main {
 			pid++;
 			
 			d1.dispatcher.add(main);
+		
 			
 		}
 		d1.processDispatcher();
