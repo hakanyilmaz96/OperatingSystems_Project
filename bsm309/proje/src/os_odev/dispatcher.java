@@ -26,7 +26,7 @@ public class dispatcher {
 		int processSayisi = 0;
 		
 		
-		while (processSayisi != boyut*2 ) {
+		while (processSayisi < boyut*2 ) {
 			
 			for(int i =0; i < boyut ;i++) {
 				if(dispatcher.size()==0)
